@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@supabase/auth-helpers-shared": "https://cdn.jsdelivr.net/npm/@supabase/auth-helpers-shared/+esm",
+    "@trpc/server": "https://esm.sh/@trpc/server@10.18.0",
+    "@trpc/server/adapters/fetch": "https://esm.sh/@trpc/server@10.18.0/adapters/fetch",
+    "oak": "https://deno.land/x/oak@v12.1.0/mod.ts",
+    "deno": "https://deno.land/std@0.182.0/http/server.ts",
+    "cookie": "https://deno.land/std@0.182.0/http/cookie.ts",
+    "zod": "https://esm.sh/zod@3.21.4"
+  }
+}

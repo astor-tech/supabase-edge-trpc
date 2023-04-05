@@ -1,5 +1,8 @@
 import { inferAsyncReturnType, TRPCError } from '@trpc/server';
 import { FetchCreateContextFnOptions } from '@trpc/server/adapters/fetch';
+
+// TODO: Replace auth-helpers modules with ESM.sh version once types are fixed in supabase-js
+// https://github.com/supabase/supabase-js/issues/739#issuecomment-1495310849
 import {
   createServerSupabaseClient,
   parseCookies,

@@ -24,11 +24,6 @@ function App() {
     };
   }, []);
 
-  // async function getCountries() {
-  //   const { data } = await supabase.from('countries').select();
-  //   setCountries(data);
-  // }
-
   return (
     <TRPCProvider>
       <main
